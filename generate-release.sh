@@ -1,5 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 set -e
+
+pushd apt-repo > /dev/null
 
 do_hash() {
     HASH_NAME=$1
@@ -28,3 +30,5 @@ EOF
 do_hash "MD5Sum" "md5sum"
 do_hash "SHA1" "sha1sum"
 do_hash "SHA256" "sha256sum"
+
+popd > /dev/null

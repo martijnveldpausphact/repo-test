@@ -6,10 +6,14 @@
 
 ## Adding new packages
 
-- Copy files to the correct directory (`/pool/main/noble/`)
+- Copy files to the correct directory (`apt-repo/pool/main/noble/`)
 - Update the `Packages` file
-    - `dpkg-scanpackages --arch amd64 pool/ > dists/noble/main/binary-amd64/Packages`
-    - `cat dists/stable/main/binary-amd64/Packages | gzip -9 > dists/noble/main/binary-amd64/Packages.gz`
+    ```sh
+    pushd apt-repo
+    dpkg-scanpackages --arch amd64 pool/ > dists/noble/main/binary-amd64/Packages
+    cat dists/noble/main/binary-amd64/Packages | gzip -9 > dists/noble/main/binary-amd64/Packages.gz
+    popd
+    ```
 - Update the Release file
     - `./generate-release.sh > apt-repo/dists/noble/Release`
 - Sign the Release
