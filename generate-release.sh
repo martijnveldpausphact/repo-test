@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-pushd apt-repo > /dev/null
+pushd apt-repo/dists/noble > /dev/null
 
 do_hash() {
     HASH_NAME=$1
