@@ -17,8 +17,8 @@ do_hash() {
 cat << EOF
 Origin: Munckhof-FTI
 Label: Limas
-Suite: stable
-Codename: stable
+Suite: noble
+Codename: noble
 Version: 1.0
 Architectures: amd64
 Components: main
