@@ -1,6 +1,6 @@
 ## Using the repository
 - Import the key
-    - `cat /path/to/pgp-key.asc | sudo tee /etc/apt/trusted.gpg.d/myrepo.asc`
+    - `cat /path/to/pgp-key.asc | sudo tee /etc/apt/trusted.gpg.d/limas.asc`
 - Add the repository
     - `sudo add-apt-repository -S deb https://raw.githubusercontent.com/martijnveldpausphact/repo-test/main/apt-repo noble main`
 
