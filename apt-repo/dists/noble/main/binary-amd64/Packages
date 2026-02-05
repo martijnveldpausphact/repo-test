@@ -78,6 +78,22 @@ Priority: optional
 Homepage: https://github.com/PepperlFuchs/pf_lidar_ros_driver
 Description: The Pepperl+Fuchs LiDAR package
 
+Package: ros-jazzy-pf-driver
+Version: 2.1.2-0noble
+Architecture: amd64
+Maintainer: Harsh Deshpande <harshavardhan.deshpande@ipa.fraunhofer.de>
+Installed-Size: 1443
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libcurlpp0t64 (>= 0.8.1), libgcc-s1 (>= 3.3.1), libjsoncpp25 (>= 1.9.5), libpcl-common1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libcurlpp-dev, libjsoncpp-dev, libpcl-apps1.14, libpcl-features1.14, libpcl-filters1.14, libpcl-io1.14, libpcl-kdtree1.14, libpcl-keypoints1.14, libpcl-ml1.14, libpcl-octree1.14, libpcl-outofcore1.14, libpcl-people1.14, libpcl-recognition1.14, libpcl-registration1.14, libpcl-sample-consensus1.14, libpcl-search1.14, libpcl-segmentation1.14, libpcl-stereo1.14, libpcl-surface1.14, libpcl-tracking1.14, libpcl-visualization1.14, libyaml-cpp-dev, ros-jazzy-laser-geometry, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-pf-description, ros-jazzy-pf-interfaces, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2
+Filename: pool/main/r/ros-jazzy-pf-driver/ros-jazzy-pf-driver_2.1.2-0noble_amd64.deb
+Size: 359682
+MD5sum: 7e20e0b9d968cc4350ade46cdc554342
+SHA1: 86a65726593ca78f0d182a997a472e64eefeea22
+SHA256: ff01687615182a17b6c4b813a09447ab7c6313241f981db9e27ced71f98c9836
+Section: misc
+Priority: optional
+Homepage: https://github.com/PepperlFuchs/pf_lidar_ros_driver
+Description: The Pepperl+Fuchs LiDAR package
+
 Package: ros-jazzy-pf-interfaces
 Version: 2.1.0-0noble
 Architecture: amd64
