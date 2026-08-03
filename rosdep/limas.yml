@@ -14,10 +14,10 @@ limas:
   ubuntu:
     noble: [ros-jazzy-limas]
 
-ls_lidar_msgs:
+lslidar_msgs:
   ubuntu:
     noble: [ros-jazzy-lslidar-msgs]
 
-ls_lidar_driver:
+lslidar_driver:
   ubuntu:
     noble: [ros-jazzy-lslidar-driver]
