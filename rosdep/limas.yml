@@ -13,3 +13,11 @@ pf_driver:
 limas:
   ubuntu:
     noble: [ros-jazzy-limas]
+
+ls_lidar_msgs:
+  ubuntu:
+    noble: [ros-jazzy-lslidar-msgs]
+
+ls_lidar_driver:
+  ubuntu:
+    noble: [ros-jazzy-lslidar-driver]

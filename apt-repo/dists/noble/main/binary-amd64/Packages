@@ -1,3 +1,19 @@
+Package: ros-jazzy-lslidar-msgs
+Version: 5.1.1-0noble
+Architecture: amd64
+Maintainer: "lslidar" <jianjiangxie@lslidar.com>
+Installed-Size: 4841
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime
+Filename: pool/main/r/ros-jazzy-lslidar/ros-jazzy-lslidar-msgs_5.1.1-0noble_amd64.deb
+Size: 292378
+MD5sum: 8097adb75b31b1533d3f051d5858656e
+SHA1: 18edb0e61ea3972f1132f1f69e07d972e0951e19
+SHA256: 46c783384bdb35b22d1b70a6bb6726d9127802803fe82c564ea961a11579b39b
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/lslidar_msgs/#jazzy
+Description: lslidar_msgs: Custom messages and service definitions for system integration
+
 Package: ros-jazzy-pf-description
 Version: 2.1.0-0noble
 Architecture: amd64
