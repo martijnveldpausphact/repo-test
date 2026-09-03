@@ -14,6 +14,14 @@ limas:
   ubuntu:
     noble: [ros-jazzy-limas]
 
+limas-ext:
+  ubuntu:
+    noble: [ros-jazzy-limas-ext]
+
+limas-ext-msgs:
+  ubuntu:
+    noble: [ros-jazzy-limas-ext-msgs]
+
 lslidar_msgs:
   ubuntu:
     noble: [ros-jazzy-lslidar-msgs]
