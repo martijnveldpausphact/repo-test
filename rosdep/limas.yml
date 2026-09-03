@@ -14,11 +14,11 @@ limas:
   ubuntu:
     noble: [ros-jazzy-limas]
 
-limas-ext:
+limas_ext:
   ubuntu:
     noble: [ros-jazzy-limas-ext]
 
-limas-ext-msgs:
+limas_ext_msgs:
   ubuntu:
     noble: [ros-jazzy-limas-ext-msgs]
 
